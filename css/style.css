@@ -1,31 +1,64 @@
 /* css reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+/* css utilities */
+
+body {
+    background-color: #191D7B;
+}
+
+p {
+    color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* css properties */
+
+.container {
     max-width: 470px;
     margin: 0 auto;
 }
 
-#jumbotron{
+#jumbotron {
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 270px;
 }
 
-#download-and-link{
-    border: 2px dashed red;
+#download-and-link {
+    text-align: center;
+    padding: 60px;
 }
 
-button{
-    display: block;
+h1 {
+    margin-bottom: 10px;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: white;
 }
 
-a{
-    display: block;
+#download {
+    background-color: white;
+    color: black;
+}
+
+#web {
+    color: white;
+    background-color: #5865F2;
 }
