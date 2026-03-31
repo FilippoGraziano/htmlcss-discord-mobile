@@ -1,0 +1,19 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#jumbotron{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 270px;
+}
