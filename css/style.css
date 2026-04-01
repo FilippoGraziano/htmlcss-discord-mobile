@@ -16,7 +16,6 @@ p {
     color: white;
     margin: 15px 0;
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -27,7 +26,6 @@ a {
     border-radius: 15px;
     margin: 10px 0;
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
