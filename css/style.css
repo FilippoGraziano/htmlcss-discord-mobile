@@ -95,3 +95,7 @@ video {
     left: 125px;
     translate: 50% -50%;
 }
+
+.px512{
+    max-width: 512px;
+}
